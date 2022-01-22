@@ -16,6 +16,7 @@ import java.time.Instant;
 import java.util.Optional;
 import java.util.UUID;
 
+@SuppressWarnings("ClassCanBeRecord")
 @Service
 @AllArgsConstructor
 @Transactional

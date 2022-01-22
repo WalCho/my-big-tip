@@ -5,6 +5,7 @@ import org.springframework.stereotype.Service;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
+@SuppressWarnings("ClassCanBeRecord")
 @Service
 @AllArgsConstructor
 public class MailContentBuilder {
